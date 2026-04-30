@@ -66,4 +66,6 @@ That is reserved for the agent that uses your plan for implementation.
 
 The plan should be thorough but not too large as to not overwhelm the build agent's context window.
 
+In the end, provide a quick summary to the user, hihglighting the basic ideas and critical parts of the plan.
+
 DO NOT MODIFY OR CREATE CODE DURING THE PLANNING PHASE.

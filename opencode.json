@@ -3,6 +3,20 @@
   "instructions": [
     "/home/johndee/.config/opencode/rules/*.md"
   ],
+  "permission": {
+    "read": {
+      ".memory/**": "deny",
+      "*": "allow"
+    },
+    "glob": {
+      ".memory/**": "deny",
+      "*": "allow"
+    },
+    "grep": {
+      ".memory/**": "deny",
+      "*": "allow"
+    }
+  },
   "mcp": {
     "context7": {
       "type": "remote",
@@ -24,7 +38,8 @@
       }
     },
     "build": {
-      "model": "opencode-go/kimi-k2.6",
+      "model": "opencode-go/deepseek-v4-pro",
+      "reasoningEffort": "high",
       "permission": {
         "websearch": "ask",
         "webfetch": "ask"
@@ -41,6 +56,18 @@
     "general": {
       "model": "opencode-go/deepseek-v4-pro",
       "reasoningEffort": "high"
+    }
+  },
+  "plugin": [
+    "@slkiser/opencode-quota"
+  ],
+  "experimental": {
+    "quotaToast": {
+      "enableToast": false,
+      "showSessionTokens": true,
+      "enabledProviders": "auto",
+      "formatStyle": "allWindows",
+      "percentDisplayMode": "remaining"
     }
   }
 }

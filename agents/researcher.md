@@ -19,4 +19,4 @@ Use **Context7** first for library/framework questions — resolves library IDs 
 
 ## Answer Format
 
-Provide a clear, helpful answer to the research question. Be detailed enough to be useful but concise — aim for a few paragraphs with key facts, code examples where relevant, and cite your sources. Do not add extraneous information or speculation.
+Provide a clear, helpful answer to the research question. Be detailed enough to be useful but concise - aim for a few paragraphs with key facts, code examples where relevant, and cite your sources. Do not add extraneous information or speculation. Try to stay within three and five paragraphs.
