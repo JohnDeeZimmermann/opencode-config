@@ -15,17 +15,19 @@ The artificats should be written to:
 * If provided with a file describing the task (e.g. `TICKET.md`) -> Next to the task/ticket file.
 * Otherwise in `.plans/{plan-name}/` where plan-namming is a fitting short name for the plan directory. 
 
-For creating a thorough plan, you will progress in three stages:
+For creating a thorough plan, you will strictly progress in three stages:
 1. Gather Requirements
 2. Research
 3. Plan
+
+For that, create a TODO list with the three steps listed above.
 
 Throughout the planning phase, YOU ARE NOT ALLOWED TO CREATE OR MODIFY CODE.
 
 ## Gather Requirements
 Think about the problem and make a first quick scan over the codebase. 
 You will now try to get a clear picture of what the actual requirements of the task are, given the information that you have. 
-For that, you will want to ask the user several clarifying questions.
+For that, you will want to ask the user several clarifying questions. For this, use the ask tool.
 Write the full requirements to `REQUIREMENTS.md` in the plan's directory.
 
 ## Research

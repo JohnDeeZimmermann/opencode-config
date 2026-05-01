@@ -35,6 +35,9 @@
       "permission": {
         "websearch": "allow",
         "webfetch": "ask"
+      },
+      "options": {
+        "reasoningEffort": "medium"
       }
     },
     "build": {
@@ -43,31 +46,38 @@
       "permission": {
         "websearch": "ask",
         "webfetch": "ask"
+      },
+      "options": {
+        "reasoningEffort": "high"
       }
     },
     "explore": {
       "model": "opencode-go/deepseek-v4-flash",
-      "reasoningEffort": "medium"
+      "reasoningEffort": "medium",
+      "options": {
+        "reasoningEffort": "medium"
+      },
+      "permission": {}
     },
     "summary": {
       "model": "opencode-go/deepseek-v4-flash",
-      "reasoningEffort": "low"
+      "reasoningEffort": "low",
+      "options": {
+        "reasoningEffort": "low"
+      },
+      "permission": {}
     },
     "general": {
       "model": "opencode-go/deepseek-v4-pro",
-      "reasoningEffort": "high"
+      "reasoningEffort": "high",
+      "options": {
+        "reasoningEffort": "high"
+      },
+      "permission": {}
     }
   },
   "plugin": [
     "@slkiser/opencode-quota"
   ],
-  "experimental": {
-    "quotaToast": {
-      "enableToast": false,
-      "showSessionTokens": true,
-      "enabledProviders": "auto",
-      "formatStyle": "allWindows",
-      "percentDisplayMode": "remaining"
-    }
-  }
+  "experimental": {}
 }
