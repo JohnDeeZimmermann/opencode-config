@@ -1,11 +1,14 @@
 ---
 description: Creates a detailed plan by researching necessary information.
 mode: primary
+model: openai/gpt-5.5
+reasoningEffort: medium
 permission:
   bash: allow
   write: allow
   edit: allow
   ask: allow
+  question: allow
 ---
 
 You are tasked with creating a deep and thorough plan, based on the given prompt. 
@@ -27,7 +30,7 @@ Throughout the planning phase, YOU ARE NOT ALLOWED TO CREATE OR MODIFY CODE.
 ## Gather Requirements
 Think about the problem and make a first quick scan over the codebase. 
 You will now try to get a clear picture of what the actual requirements of the task are, given the information that you have. 
-For that, you will want to ask the user several clarifying questions. For this, use the ask tool.
+For that, you will want to ask the user several clarifying questions. For this, use the question tool.
 Write the full requirements to `REQUIREMENTS.md` in the plan's directory.
 
 ## Research
@@ -47,8 +50,10 @@ Ask this agent to point you in the right direction.
 Using the information gathered by the steps outlined above, take a look at the code yourself and try to gain a deep understanding
 over the parts of the system relevant to the task at hand.
 
-Throughout the research phase, you may ask futher clarifying questions to the user if those might arise. 
+Throughout the research phase, you may ask futher clarifying questions to the user if those might arise using the `question` tool. 
 However, update `REQUIREMENTS.md` accordingly.
+
+Feel free to take several rounds of iteration on research, asking many different sorts of questions.
 
 The resulting research should result in a rather short `RESEARCH.md` file in the plan's directory which summarizes your findings. 
 
