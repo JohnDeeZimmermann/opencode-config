@@ -6,14 +6,17 @@
   "permission": {
     "read": {
       ".memory/**": "deny",
+      ".plans/.old/**": "deny",
       "*": "allow"
     },
     "glob": {
       ".memory/**": "deny",
+      ".plans/.old/**": "deny",
       "*": "allow"
     },
     "grep": {
       ".memory/**": "deny",
+      ".plans/.old/**": "deny",
       "*": "allow"
     }
   },

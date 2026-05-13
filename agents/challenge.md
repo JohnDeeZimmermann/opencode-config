@@ -1,8 +1,7 @@
 ---
 description: Challenges a given plan and suggests improvements.
 mode: subagent
-model: openai/gpt-5.5
-reasoningEffort: low
+model: opencode-go/glm-5.1
 permission:
   bash: allow
   write: deny
@@ -42,6 +41,10 @@ What could cause problems down the line?
 
 ### 5. Edge cases
 What was not considered?
+
+### 6. Fact cheking
+Do your own research using the _research_ subagent to find alternative approaches. 
+Try to find holes in proposed solutions.
 
 ---
 

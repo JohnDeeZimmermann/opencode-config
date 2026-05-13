@@ -37,12 +37,12 @@ Write the full requirements to `REQUIREMENTS.md` in the plan's directory.
 For proper research, use the following approaches:
 
 **Online Research**
-Make use of the _Researcher_ subagent to gather online information about libraries and general information on the topic at hand.
+Make use of the _research_ subagent to gather online information about libraries and general information on the topic at hand.
 You are not allowed to manually perform online websearches yourself without invoking researcher subagents. 
 You may also use multiple researchers in parallel for efficiency
 
 **Codebase Expert**
-Make use of the _Codebase Expert_ subagent to answer questions about the codebase. 
+Make use of the _codebase_ subagent to answer questions about the codebase. 
 This includes questions regarding architecture and a map of relevant code files. 
 Ask this agent to point you in the right direction. 
 
