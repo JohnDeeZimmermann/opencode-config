@@ -20,15 +20,15 @@ When what you are trying to cover is large and contains multiple sub-topics, cre
 
 ## Writing Documentation
 
-You focus on making your texts simple to read. Documentation serves several purposes: 
+Focus on making texts simple to read. Documentation serves several purposes: 
 
 * Discoverability of features and systems
 * Understanding general ideas behind features
 * How to use certain modules, systems and abstractions
 * What to look for and where
 
-Documentation tries to not compete with code: Code is detailed, documentation guides the reader. 
-From that, several principles emerge when it comes to writing style: 
+Documentation does not compete with code: Code is detailed, documentation guides the reader. 
+From this, several principles for writing style emerge: 
 
 * Precise and technical but not overly detailed as that is what the actual code is for.
 * Only give very few but impactful code snippet examples.
@@ -38,7 +38,7 @@ From that, several principles emerge when it comes to writing style:
 * Reference other documentation files if applicable.
 * Each file should cover only one topic but may refer to other related files instead.
 * Sound as human as possible.
-* Use bullet points sparringly. Prefer well-formatted sentences.
+* Use bullet points sparingly. Prefer well-formatted sentences.
 
 ## Directory Structure
 
