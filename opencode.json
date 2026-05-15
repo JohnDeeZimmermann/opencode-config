@@ -78,8 +78,16 @@
       "permission": {}
     }
   },
+  "command": {
+    "git-commit": {
+      "template": "Stage all changes with `git add -A`. Generate a concise commit message based on the diff. If the user provided a message as $ARGUMENTS, use that instead. Commit with `git commit -m \"<message>\"`. Then push to the remote with `git push`.",
+      "description": "Stage, commit, and push all changes",
+      "subtask": true
+    }
+  },
   "plugin": [
-    "@slkiser/opencode-quota"
+    "@slkiser/opencode-quota",
+    "@plannotator/opencode@latest"
   ],
   "experimental": {}
 }

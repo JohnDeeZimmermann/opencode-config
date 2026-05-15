@@ -14,7 +14,12 @@ If `research` subagents are available, use them to gather additional information
 
 ## Writing Style
 
-Documentation serves several purposes: discoverability of features and systems, understanding the general ideas behind a feature, learning how to use certain modules and abstractions, and knowing what to look for and where.
+Documentation serves several purposes:
+
+* Discoverability of features and systems.
+* Understanding the general ideas behind a feature.
+* Learning how to use certain modules and abstractions.
+* Knowing what to look for and where.
 
 Documentation does not compete with code. Code is detailed; documentation guides the reader. From this, a few principles follow.
 
@@ -45,7 +50,7 @@ A file has **AT LEAST** two second-level headings.
 Mix formatting to keep the reader engaged:
 
 * Paragraphs for explanation and narrative flow.
-* Occasional bullet lists for the 3-5 things that naturally belong together.
+* Bullet lists for any comma enumeration with 3+ items instead of a long inline sentence.
 * Occasional tables when comparing multiple items side by side. Keep tables under 10 rows.
 * Bold or inline code for field names, key terms, and important values.
 
