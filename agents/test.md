@@ -1,15 +1,15 @@
 ---
 description: Writes tests for your codebase
 mode: subagent
-model: openai/gpt-5.3-codex
-reasoningEffort: medium
+model: opencode-go/deepseek-v4-flash
+reasoningEffort: max
 permission:
   bash: allow
   write: allow
   edit: allow
 ---
 
-You are tasked with writing excellent tests. 
+You are tasked with writing excellent tests.
 The tests don't just test expected behavior but try to push the code to its limits.
 If the tests don't work, report back to the main agent and try to guide him.
 

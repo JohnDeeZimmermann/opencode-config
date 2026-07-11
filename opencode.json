@@ -32,54 +32,34 @@
   },
   "agent": {
     "plan": {
-      "model": "openai/gpt-5.5",
-      "reasoningEffort": "medium",
+      "model": "openai/gpt-5.6-sol",
       "variant": "medium",
       "permission": {
         "websearch": "allow",
         "webfetch": "ask"
-      },
-      "options": {
-        "reasoningEffort": "medium"
       }
     },
     "build": {
-      "model": "opencode-go/deepseek-v4-pro",
-      "reasoningEffort": "high",
-      "variant": "high",
+      "model": "openai/gpt-5.6-sol",
+      "variant": "medium",
       "permission": {
         "websearch": "ask",
         "webfetch": "ask"
-      },
-      "options": {
-        "reasoningEffort": "high"
       }
     },
     "explore": {
       "model": "opencode-go/deepseek-v4-flash",
-      "reasoningEffort": "medium",
-      "variant": "medium",
-      "options": {
-        "reasoningEffort": "medium"
-      },
+      "variant": "high",
       "permission": {}
     },
     "summary": {
       "model": "opencode-go/deepseek-v4-flash",
-      "reasoningEffort": "low",
-      "variant": "low",
-      "options": {
-        "reasoningEffort": "low"
-      },
+      "variant": "high",
       "permission": {}
     },
     "general": {
-      "model": "opencode-go/deepseek-v4-pro",
-      "reasoningEffort": "high",
+      "model": "opencode-go/kimi-k2.7-code",
       "variant": "high",
-      "options": {
-        "reasoningEffort": "high"
-      },
       "permission": {}
     }
   },

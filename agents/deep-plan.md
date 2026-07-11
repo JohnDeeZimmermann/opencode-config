@@ -2,7 +2,7 @@
 description: Creates a detailed plan by researching necessary information.
 mode: primary
 model: openai/gpt-5.5
-reasoningEffort: medium
+reasoningEffort: high
 permission:
   bash: allow
   write: allow

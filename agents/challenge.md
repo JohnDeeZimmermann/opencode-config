@@ -1,7 +1,7 @@
 ---
 description: Challenges a given plan and suggests improvements.
 mode: subagent
-model: opencode-go/glm-5.1
+model: opencode-go/glm-5.2
 permission:
   bash: allow
   write: deny
